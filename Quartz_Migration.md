@@ -139,10 +139,89 @@ Perform the upgrade step by step: update the library, adjust the database, adapt
 
 By following these steps, you should be able to migrate from 2.1.6 to 2.3.2 smoothly. The key is to **migrate the database** and update the code for the few breaking changes introduced in Quartz 2.2.0. After that, Quartz 2.3.2 should operate as a drop-in replacement, and you can enjoy a more up-to-date scheduler with potential bug fixes and performance enhancements. Good luck with the migration!
 
+
+
+Thanks for confirming. I’ll compile a high-level summary of all the key updates, feature additions, and bug fixes introduced in Quartz Scheduler versions between 2.1.6 and 2.3.2. I’ll focus on clear version-by-version breakdowns so you can understand what improvements or changes were made along the way.
+
+I’ll let you know as soon as it’s ready.
+
+
+# Upgrading Quartz from 2.1.6 to 2.3.2: Major Changes & New Features
+
+Migrating from **Quartz 2.1.6 (2012)** to **Quartz 2.3.2** involves several intermediate releases with important updates. Below is a high-level summary of new features, enhancements, and bug fixes introduced in Quartz **2.2.x** and **2.3.x** that were not present in 2.1.6:
+
+## Quartz 2.2.0 – New Features and Breaking Changes (Released June 2013)
+
+* **Database Schema Update:** Quartz 2.2.0 introduced a minor database schema change. A new column `SCHED_TIME` was added to the `QRTZ_FIRED_TRIGGERS` table (to record the scheduler’s timestamp for fired triggers). If you use JDBC job stores, you’ll need to add this column when upgrading from 2.1.x.
+* **Scheduler Listener API Change:** A new callback method `schedulerStarting()` was added to the `SchedulerListener` interface. This is a **breaking change** for any custom SchedulerListener implementations, as they must implement the new method.
+* **Thread Naming Customization:** Ability to override worker thread names when using the `SimpleThreadPool` was added. This lets you define a thread name prefix for Quartz worker threads (useful for debugging and monitoring).
+* **Scheduling Multiple Triggers at Once:** A new scheduler API was introduced to schedule a job with multiple triggers in one call. In Quartz 2.2.0 you can use an overloaded `scheduleJob` method to attach a set of triggers to a single job in one operation.
+* **Store Jobs Without Trigger (Non-Durable):** Quartz now allows initially storing a job without an associated trigger even if the job is non-durable. (In previous versions, you could only add a job without a trigger if it was marked durable.) This facilitates adding a job and then scheduling triggers for it later.
+* **Job Recovery Improvements:** Improvements were made to how recovery (fail-over) information is recorded for jobs. This goes hand-in-hand with the new `SCHED_TIME` field – enhancing reliability when recovering misfired jobs after a scheduler restart.
+* **Miscellaneous:** The scheduler’s internal `TypeLoadHelper` is now available to plugins during their initialization (improving extensibility). Also, a configuration parameter `dbFailureRetryInterval` was removed from `DirectSchedulerFactory` (simplifying the API).
+
+## Quartz 2.2.1, 2.2.2 – Maintenance Releases (2013–2015)
+
+* These minor releases were **primarily bug-fix updates** on the 2.2 branch with no major new features. Quartz **2.2.1** (Sept 2013) and **2.2.2** (Oct 2015) addressed various stability issues and improvements:
+
+  * *Dependency updates:* e.g., updates to database drivers and minor API tweaks for compatibility.
+  * *Bug fixes:* Resolved edge-case bugs in trigger misfire handling and listener registration. For example, Quartz 2.2.1 fixed some job listener matching issues, and 2.2.2 included fixes to make Quartz more stable with newer versions of third-party libraries (Spring 4.x, etc.).
+  * **(No database schema changes** beyond 2.2.0’s update, and no new features of note in these patches.)\*\*
+
+## Quartz 2.2.3 – Critical Fixes (Released April 2016)
+
+* **Critical Bug Fix Release:** Quartz 2.2.3 was a pure bug-fix release containing important stability fixes. In particular, it addressed a known issue with `CalendarIntervalTrigger` scheduling. The bug where CalendarIntervalTriggers could produce incorrect next-fire times was fixed, improving the accuracy of calendar-based schedules.
+* **Other Fixes:** It also resolved miscellaneous issues from earlier 2.2.x versions. For example, fixes were made to misfire handling and to certain trigger listeners. This release solidified the 2.2 branch’s reliability (no new features were added, as it was a maintenance release).
+
+## Quartz 2.3.0 – New Features and Improvements (Released April 2017)
+
+* **Java Requirement Bump:** Quartz 2.3.x requires **Java 7+** (while 2.2.x was compatible with Java 6). (Since you are on Java 8, this is not an issue, but it’s a notable change in the 2.3 line.)
+* **HikariCP Support:** Quartz 2.3.0 introduced built-in support for HikariCP as a connection pool, alongside upgrades to the default C3P0 library. This means you can use HikariCP for Quartz’s JDBC JobStore for better performance, and Quartz’s dependencies were updated to break the old static ties to C3P0.
+* **New API – Reset Trigger from Error State:** A new feature `resetTriggerFromErrorState` was added. This allows the scheduler to reset a “stuck” trigger that was in an error state (for example, a trigger that failed to fire due to a job error) back to a normal state. This is useful for recovering from job execution failures without manual intervention.
+* **Database Store Improvements:** Quartz 2.3.0 made small improvements to the SQL scripts and database schema (though no new schema changes were required beyond 2.2.x). For example, missing foreign key constraints were added for certain tables (e.g. blob triggers table on MS SQL) and `DROP TABLE IF EXISTS` clauses were added for PostgreSQL scripts. These changes make schema management more robust but don’t require existing schema migration if you’re upgrading (they mainly affect new installations or provide optional script fixes).
+* **Bug Fixes:** Several bugs were fixed in 2.3.0, improving stability:
+
+  * Fixed an issue where Quartz would fail to create tables on MySQL when using InnoDB with UTF8mb4 charset.
+  * Fixed the job recovery mechanism on scheduler startup (jobs that were in-progress or misfired now recover correctly on restart).
+  * Numerous smaller fixes and code improvements were included, as the project cleaned up technical debt for the 2.3 release.
+
+## Quartz 2.3.1 – Dependency Updates & Bug Fixes (Released March 2018)
+
+* **Dependency Upgrades:** Quartz 2.3.1 updated some bundled libraries: for example, HikariCP was updated to a Java 7 compatible version (2.4.13) and C3P0 to version 0.9.5.3. This ensures better compatibility and performance with those connection pools.
+* **Bug Fixes and Improvements:** This release was focused on polishing the 2.3.0 features and fixing bugs:
+
+  * Fixed a data type issue for HSQLDB job data fields (using BLOB instead of binary for large data).
+  * Fixed a thread naming issue where an empty string could be used as part of a thread name when using DirectSchedulerFactory.
+  * **Trigger handling fixes:** Resolved an issue where triggers in a BLOCKED state were not getting released properly, which could previously lead to triggers stuck in “blocked” if a job misfired. Also fixed a problem with DailyTimeIntervalTrigger not setting its `endingDailyAfterCount` correctly in certain cases.
+  * Added minor improvements such as new configuration options for the `StdRowLockSemaphore` (to tweak DB lock retry behavior) and exposed some previously internal settings via setters (e.g. data source properties for connection validation). These enhance Quartz’s configurability but don’t require code changes unless you need them.
+  * No new **major** features were added in 2.3.1 – it was mainly a stability and maintenance update on top of 2.3.0.
+
+## Quartz 2.3.2 – Latest 2.3.x Fixes (Released late 2018)
+
+* **Bug-Fix Only Release:** Quartz 2.3.2 is a **pure bug-fix release** that addressed several outstanding issues from 2.3.1. Upgrading to 2.3.2 gives you these fixes:
+
+  * **CronTrigger Misfire Instruction Fix:** Resolved a bug where calling `CronTrigger.getTriggerBuilder()` would unintentionally reset a trigger’s misfire instruction from “ignore misfire” to “smart policy”. This ensures CronTriggers retain their configured misfire policy.
+  * **H2 Database Compatibility:** Fixed an error when using H2 database (version 1.4.200) with Quartz.
+  * **Trigger Acquisition Limits:** Fixed two related issues in `StdJDBCDelegate.selectTriggerToAcquire` so that it respects the `maxBatchSize` properly. Quartz will now correctly limit the number of triggers acquired in one query, preventing potential performance issues when a large number of triggers are due simultaneously.
+  * **Connection Pool Update (Security):** Updated C3P0 to version 0.9.5.4 to address a security vulnerability (CVE-2019-5427). This closes a potential deserialization issue in C3P0.
+  * **Startup Race/Concurrency Fix:** Resolved a `ConcurrentModificationException` that could occur in `StdSchedulerFactory` when reading system properties concurrently during initialization.
+  * **XML XXE Vulnerability Fix:** Closed a security hole where an XML configuration could be vulnerable to XML External Entity (XXE) attacks during initialization. Quartz’s XML parsing is now hardened for security.
+* **No New Features:** There were no new features or API changes in 2.3.2 – it is strictly a stability update. It is recommended to use 2.3.2 as it is the most stable and secure version in the 2.x line, with all known critical bugs from 2.1.x fixed.
+
+## Summary of Benefits Moving to 2.3.2
+
+Upgrading from **Quartz 2.1.6 to 2.3.2** brings a number of benefits:
+
+* **New Functionality:** Features like configurable thread naming, simpler bulk scheduling of triggers, HikariCP support for better DB connectivity, and the ability to reset error-state triggers provide more flexibility than Quartz 2.1.6.
+* **Performance & DB Improvements:** Internal optimizations (e.g. improved SQL queries) and updated database scripts lead to better performance and easier database management. The addition of the `SCHED_TIME` field and other job-store tweaks improve reliability for persistent schedules.
+* **Bug Fixes:** Many bugs present in 2.1.6 have been resolved through 2.2.x and 2.3.x. This includes fixes for misfire handling, trigger persistence issues, edge-case scheduling bugs (especially with complex triggers like CalendarIntervalTrigger), and various concurrency issues. Overall stability in clustered and standalone modes is much improved.
+* **Security Updates:** By 2.3.2, Quartz has addressed known security vulnerabilities (for example, the XXE issue in XML loading and a C3P0 library vulnerability), making it safer to use in production.
+* **Compatibility:** Quartz 2.3.2 remains backward compatible with Quartz 2.x in terms of job store data (the only schema change was in 2.2.0, as noted). Just ensure your Java version is at least 7 (which it is, in your case) and update any custom listeners to implement the new methods introduced in 2.2+.
+
+By migrating to **Quartz 2.3.2**, you’ll gain all the above enhancements and ensure that your scheduler is on a supported, more robust version than the old 2.1.6 release. Each incremental update from 2.1.6 through 2.3.2 contributed to better features and reliability, which you will get in one jump with 2.3.2.
+
 **Sources:**
 
-* Quartz 2.2.0 Release Notes (database schema changes and API updates)
-* Quartz Official Documentation – Changelog and release highlights for 2.3.x
-* Stack Overflow – Known schema update (`SCHED_TIME` column addition) when upgrading Quartz
-* Quartz Scheduler Migration Guide (for reference on schema and API differences from older versions)
-* Quartz Scheduler Documentation – Using JDBC JobStore and table creation scripts
+* Quartz 2.3.x official changelog and GitHub release notes for bug fixes and features.
+* Quartz 2.2.0 release notes (Quartz.NET mirror) for new features and schema changes.
+* Quartz project wiki and documentation for version requirements and release timelines.
