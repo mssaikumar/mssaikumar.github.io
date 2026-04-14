@@ -1,0 +1,215 @@
+package org.example;
+
+import org.springframework.web.util.UriComponentsBuilder;
+
+public class BAPITransactionUrlTest {
+
+    private static final String activityEndPoint = "/billing/accounts/";
+    private static final String ACTIVITIES_ENDPOINT = "/activities/";
+    private static final String MERCHANT_CREDIT_ENDPOINT = "/merchantCredit";
+    private static final String SAMPLE_REST_URL = "https://bapi-transaction-service.yourcompany.com/api/v1";
+
+    private static int totalPass = 0;
+    private static int totalFail = 0;
+
+    // OLD METHOD
+    public static String buildUrlOld(Long accountId, String transactionKey) {
+        StringBuilder url = new StringBuilder();
+        url.append(SAMPLE_REST_URL)
+                .append(activityEndPoint)
+                .append(accountId)
+                .append(ACTIVITIES_ENDPOINT)
+                .append(transactionKey)
+                .append(MERCHANT_CREDIT_ENDPOINT);
+        return url.toString();
+    }
+
+    // NEW METHOD — real UriComponentsBuilder
+    public static String buildUrlNew(Long accountId, String transactionKey) {
+        String targetUrl = UriComponentsBuilder
+                .fromUriString(SAMPLE_REST_URL)
+                .path(activityEndPoint)
+                .path(String.valueOf(accountId))
+                .path(ACTIVITIES_ENDPOINT)
+                .path(transactionKey)
+                .path(MERCHANT_CREDIT_ENDPOINT)
+                .build()
+                .toUriString();
+        return targetUrl;
+    }
+
+    static void test(String category, Long accountId, String transactionKey) {
+        String oldUrl = buildUrlOld(accountId, transactionKey);
+        String newUrl = buildUrlNew(accountId, transactionKey);
+        boolean match = oldUrl.equals(newUrl);
+
+        if (match) totalPass++; else totalFail++;
+
+        String status = match ? "MATCH" : "MISMATCH <<<< PROBLEM";
+        System.out.printf("  %-4s | %-45s | acctId=%-20s | %s%n",
+                match ? "OK" : "FAIL", transactionKey, accountId, status);
+
+        if (!match) {
+            System.out.println("       OLD: " + oldUrl);
+            System.out.println("       NEW: " + newUrl);
+        }
+    }
+
+    public static void main(String[] args) {
+
+        // ============================================================
+        // 1. BASIC ALPHANUMERIC KEYS
+        // ============================================================
+        System.out.println("\n========== 1. BASIC ALPHANUMERIC KEYS ==========");
+        test("basic", 12345L, "simple123");
+        test("basic", 12345L, "abc");
+        test("basic", 12345L, "ALLCAPS");
+        test("basic", 12345L, "mixedCaseKey");
+        test("basic", 12345L, "a1b2c3d4e5f6");
+        test("basic", 12345L, "x");
+
+        // ============================================================
+        // 2. KEYS WITH SPECIAL ALLOWED CHARACTERS
+        // ============================================================
+        System.out.println("\n========== 2. SPECIAL ALLOWED CHARACTERS ==========");
+        test("special", 12345L, "key-with-dashes");
+        test("special", 12345L, "key_with_underscores");
+        test("special", 12345L, "key.with.dots");
+        test("special", 12345L, "key-with-mixed_chars.here");
+        test("special", 12345L, "key---triple-dash");
+        test("special", 12345L, "___leading_underscores");
+        test("special", 12345L, "trailing-dash-");
+        test("special", 12345L, "-leading-dash");
+
+        // ============================================================
+        // 3. BASE64 ENCODED KEYS
+        // ============================================================
+        System.out.println("\n========== 3. BASE64 ENCODED KEYS ==========");
+        test("base64", 12345L, "MzQ1Njc4OQ==");
+        test("base64", 12345L, "abc123XYZ_encoded-key=");
+        test("base64", 12345L, "dGVzdA==");
+        test("base64", 12345L, "SGVsbG8gV29ybGQ=");
+        test("base64", 12345L, "YWJjZGVmZw==");
+        test("base64", 12345L, "a0b1c2d3e4f5g6h7i8j9==");
+
+        // ============================================================
+        // 4. DIFFERENT ACCOUNT IDS
+        // ============================================================
+        System.out.println("\n========== 4. DIFFERENT ACCOUNT IDS ==========");
+        test("acctId", 0L, "testKey");
+        test("acctId", 1L, "testKey");
+        test("acctId", 999999999L, "testKey");
+        test("acctId", Long.MAX_VALUE, "testKey");
+        test("acctId", 100L, "testKey");
+        test("acctId", 42L, "testKey");
+        test("acctId", 1000000L, "testKey");
+        test("acctId", 9999999999999L, "testKey");
+
+        // ============================================================
+        // 5. LONG KEYS
+        // ============================================================
+        System.out.println("\n========== 5. LONG KEYS ==========");
+        test("long", 12345L, "a".repeat(50));
+        test("long", 12345L, "a".repeat(100));
+        test("long", 12345L, "a".repeat(255));
+        test("long", 12345L, "abcdefghij".repeat(10));
+        test("long", 12345L, "key-" + "x".repeat(200));
+
+        // ============================================================
+        // 6. NUMERIC KEYS
+        // ============================================================
+        System.out.println("\n========== 6. NUMERIC KEYS ==========");
+        test("numeric", 12345L, "123456789");
+        test("numeric", 12345L, "0");
+        test("numeric", 12345L, "00000");
+        test("numeric", 12345L, "999999999999");
+        test("numeric", 12345L, "1");
+
+        // ============================================================
+        // 7. SINGLE CHARACTER KEYS
+        // ============================================================
+        System.out.println("\n========== 7. SINGLE CHARACTER KEYS ==========");
+        test("single", 12345L, "a");
+        test("single", 12345L, "Z");
+        test("single", 12345L, "0");
+        test("single", 12345L, "-");
+        test("single", 12345L, "_");
+        test("single", 12345L, ".");
+
+        // ============================================================
+        // 8. KEYS WITH EQUALS SIGNS (common in encoded values)
+        // ============================================================
+        System.out.println("\n========== 8. KEYS WITH EQUALS SIGNS ==========");
+        test("equals", 12345L, "key=value");
+        test("equals", 12345L, "key==");
+        test("equals", 12345L, "===");
+        test("equals", 12345L, "a=b=c=d");
+        test("equals", 12345L, "base64encoded==padding");
+
+        // ============================================================
+        // 9. KEYS WITH PLUS SIGNS (common in Base64)
+        // ============================================================
+        System.out.println("\n========== 9. KEYS WITH PLUS SIGNS ==========");
+        test("plus", 12345L, "key+value");
+        test("plus", 12345L, "a+b+c");
+        test("plus", 12345L, "+leading");
+        test("plus", 12345L, "trailing+");
+        test("plus", 12345L, "base64+encoded+key=");
+
+        // ============================================================
+        // 10. MIXED EDGE CASES
+        // ============================================================
+        System.out.println("\n========== 10. MIXED EDGE CASES ==========");
+        test("mixed", 12345L, "TXN-2024-001-abc123");
+        test("mixed", 12345L, "ref_12345_enc_abc==");
+        test("mixed", 12345L, "ORDER.2024.Q1.ITEM-001");
+        test("mixed", 12345L, "usr_acc-12345.txn+ref==");
+        test("mixed", 12345L, "A");
+        test("mixed", 1L, "A");
+        test("mixed", Long.MAX_VALUE, "a".repeat(255));
+
+        // ============================================================
+        // 11. REALISTIC TRANSACTION KEYS
+        // ============================================================
+        System.out.println("\n========== 11. REALISTIC TRANSACTION KEYS ==========");
+        test("real", 98765L, "TXN20240315001");
+        test("real", 98765L, "MC-REF-20240315-98765");
+        test("real", 98765L, "dHhuLTIwMjQwMzE1");
+        test("real", 11111L, "MERCH_CREDIT_REF_001");
+        test("real", 22222L, "inv-2024-q1-0001");
+        test("real", 33333L, "PAY_REF_ABC123XYZ");
+        test("real", 44444L, "settlement-batch-2024-03");
+        test("real", 55555L, "auth_code_7f8g9h");
+        test("real", 66666L, "VISA-MC-AMEX-REF-001");
+        test("real", 77777L, "recurring.payment.ref.001");
+
+        // ============================================================
+        // 12. BOUNDARY VALUES FOR ACCOUNT ID
+        // ============================================================
+        System.out.println("\n========== 12. BOUNDARY ACCOUNT IDS ==========");
+        test("boundary", 0L, "key123");
+        test("boundary", 1L, "key123");
+        test("boundary", 10L, "key123");
+        test("boundary", 100L, "key123");
+        test("boundary", 1000L, "key123");
+        test("boundary", 10000L, "key123");
+        test("boundary", 100000L, "key123");
+        test("boundary", 1000000L, "key123");
+        test("boundary", 10000000L, "key123");
+        test("boundary", 100000000L, "key123");
+        test("boundary", 1000000000L, "key123");
+        test("boundary", Long.MAX_VALUE, "key123");
+
+        // ============================================================
+        // FINAL SUMMARY
+        // ============================================================
+        System.out.println("\n============================================================");
+        System.out.println("                    FINAL SUMMARY");
+        System.out.println("============================================================");
+        System.out.println("Total tests: " + (totalPass + totalFail));
+        System.out.println("Passed:      " + totalPass);
+        System.out.println("Failed:      " + totalFail);
+        System.out.println("Result:      " + (totalFail == 0 ? "ALL PASSED — SAFE TO DEPLOY" : "HAS FAILURES — DO NOT DEPLOY"));
+        System.out.println("============================================================");
+    }
+}
