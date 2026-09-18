@@ -1,307 +1,200 @@
-Thanks for confirming. I’ll look into the tax and penalty implications of withdrawing from a Traditional 401(k), IRA, and HSA in various scenarios for an H1B visa holder—whether you stay in the U.S. (in a state with or without income tax) or return to India.
+# 401(k) / IRA / Roth / HSA Withdrawal Tax Scenarios
 
-I’ll also explain how the timing of withdrawals (e.g., during years with low income or after leaving the U.S.) affects taxation and what strategies could help you minimize taxes and penalties.
+> Last updated: 2026-09-18 · Verified against current law (OBBBA, SECURE 2.0, IRS 2026 inflation figures, India Income-tax Act 2025)
 
-I’ll get back to you with a full breakdown shortly.
+**Who this is for:** Indian citizen on H-1B, currently a US tax resident, holding a **Traditional 401(k), Roth IRA, and HSA**. May stay in the US indefinitely or return to India permanently in 1–5+ years. This doc maps every withdrawal scenario: stay in a no-tax state, stay in an income-tax state, or return to India (as a nonresident alien / Indian resident), plus the timing strategies that actually move the needle.
 
-
-# Tax and Penalty Consequences of Early Withdrawals (Traditional 401(k), Traditional IRA, HSA) for an H1B Worker
-
-**Scenario:** An H-1B visa holder has been working in the U.S. for one year (a U.S. tax resident under the substantial presence test) and plans to stay \~4–5 more years (through 2027). We examine the tax and penalty implications of **cashing out a Traditional 401(k), a Traditional IRA, or an HSA** before age 59½ (or 65 for HSA) in the following situations:
-
-1. **Staying in the U.S. after 2027** (beyond the H-1B period), living either:
-   a. In a state with **no state income tax** (e.g. Texas, Florida).
-   b. In a state **with state income tax** (e.g. California, New York).
-
-2. **Leaving the U.S. after 2027 and returning to India** (becoming a nonresident alien for U.S. tax and resident of India).
-
-For each scenario, we detail: the 10% early withdrawal penalty (or 20% for HSA) and whether it applies, federal and state taxes owed, any taxes due in India, and reporting/withholding requirements. We also discuss strategies for minimizing taxes and penalties, including small annual withdrawals (within non-taxable limits) and Roth conversions or other methods. The analysis is broken down by account type for clarity.
-
-## Traditional 401(k) Withdrawals
-
-A **Traditional 401(k)** is funded pre-tax and grows tax-deferred. Any withdrawal of pre-tax funds is generally taxed as **ordinary income**. If taken before age 59½, it is typically subject to a **10% early withdrawal penalty** on the taxable amount, unless an exception applies.
-
-**Important:** Employers are required to **withhold 20% federal tax** from most 401(k) distributions paid to you (if not directly rolled over). This withholding is prepayment of tax – actual tax is determined when you file your return, and you may owe more or get a refund depending on your tax bracket. If you’re under 59½, the 10% penalty is calculated on your tax return (Form 5329). We outline consequences for each scenario:
-
-### 1(a). Staying in the U.S. (No State Income Tax State)
-
-If you remain in the U.S. after 2027 in a state like Texas or Florida (no state income tax):
-
-* **10% Early Withdrawal Penalty:** Yes, a 10% IRS penalty applies to 401(k) distributions before age 59½ (barring exceptions). This is an extra tax on the withdrawal amount, on top of regular income tax. There is **no special exemption just for leaving your job or the country** (leaving the U.S. is not an IRS penalty exception). You’d still face this penalty as a U.S. resident if under 59½.
-
-* **Federal Income Tax:** The withdrawn amount is added to your taxable income for the year and taxed at your **ordinary federal income tax rate**. The distribution does not get any special tax rate; it’s as if you earned that money as salary. For example, a \$20,000 early 401(k) withdrawal would be taxed as \$20,000 of additional income, potentially pushing you into a higher tax bracket, *plus* the 10% penalty (i.e. an additional \$2,000 tax).
-
-* **State Tax:** In a no-income-tax state, **no state tax** is due on the 401(k) withdrawal. States like Texas or Florida do not tax personal income, so the distribution is free from state income tax.
-
-* **Reporting & Withholding:** You’ll receive a **Form 1099-R** reporting the distribution. The plan administrator will **withhold 20%** of the taxable portion for federal tax upfront. Come tax time, you calculate actual tax. The 10% early withdrawal penalty is reported on Form 5329 and added to your tax due. Because there’s no state tax, there’s no state withholding. You simply report the distribution on your federal 1040.
-
-* **Small Withdrawals Within Standard Deduction:** If you only withdraw a *small amount* each year, it’s possible your regular federal tax on that withdrawal will be zero due to the standard deduction. For instance, as a U.S. resident in 2025, roughly the first \~\$13,000 of income is tax-free for a single filer. Withdrawing an amount up to the standard deduction (assuming no other income) could result in **no federal income tax** on the withdrawal. (In other words, you’d “stay in the 0% tax bracket.”) *However, the 10% penalty still applies* on the amount withdrawn. The IRS penalty doesn’t go away even if the income itself isn’t taxed. For example, withdraw \$10,000 and have no other income – you’d owe \$0 in regular federal tax (if within deduction), but still owe a \$1,000 penalty (10%). **Key point:** the standard deduction shields only the normal income tax, not the early withdrawal penalty.
-
-### 1(b). Staying in the U.S. (State with Income Tax e.g. CA or NY)
-
-If you remain in the U.S. but live in a state **with income tax** (such as California or New York), all the federal consequences above apply, plus state-level taxes:
-
-* **10% Federal Penalty:** The federal 10% early withdrawal penalty still applies (state tax authorities generally piggyback on the federal definition of an early distribution). There may also be a **state early withdrawal penalty** in some cases. For example, **California imposes an additional 2.5% state penalty tax** on early distributions from retirement accounts. In California, an early 401(k) cash-out would incur *12.5%* in combined penalties (10% federal + 2.5% state). New York does *not* impose a separate penalty (it follows federal on this), but California explicitly does.
-
-* **Federal Income Tax:** Same as above – the distribution is ordinary income federally. It will be taxed according to your federal bracket for the year. The plan will withhold 20% federal tax upfront by default.
-
-* **State Income Tax:** The distribution is also subject to **state income tax** as regular income. States like California and New York tax retirement withdrawals just like wages. For example, California taxes additional income at your marginal rate (which can be as high as \~13% for top earners). New York’s top rate is lower (around 10% at the highest incomes). Importantly, **no state gives special tax breaks for early 401(k) cash-outs** – they are fully taxable. (Social Security is often exempt, but 401(k)/IRA distributions are taxed by states in the same way as any other income.)
-
-* **Reporting & Withholding:** You’ll get Form 1099-R for federal. For state, you’ll include the distribution on your state income tax return as taxable income. **State tax withholding** on retirement distributions varies: some payers will withhold state tax (especially if you request it or if state law mandates a default rate). For instance, California might have a default withholding (often 10% of the federal withholding, i.e. 2% of the distribution), unless you opt out. Check your state’s rules or the withdrawal paperwork. The federal 20% withholding still applies, and California residents would also see the 2.5% penalty added when filing their CA return (Form FTB 3805P is used to compute CA’s additional 2.5% tax on early distributions).
-
-* **Small Annual Withdrawals:** As with scenario 1(a), withdrawing small amounts up to the federal standard deduction can eliminate **federal** tax on the distribution (aside from the penalty). You also benefit from any state low-income allowances. For example, California has a standard deduction (\~\$5,000 for single in 2025) and personal exemption credits – a small withdrawal might fall under those, resulting in minimal state tax. But again, **penalties still apply** (10% fed + 2.5% CA in our example). There’s no avoiding those by staying under income thresholds, except by qualifying for an exception (discussed later). In summary, a series of small annual withdrawals can keep you in lower tax brackets (reducing income tax to near-zero if planned well), but you’d still pay the early withdrawal penalties on each distribution.
-
-### 2. Leaving the U.S. and Returning to India (After 2027)
-
-If you leave the U.S. after 2027 and become a **nonresident alien (NRA)** for U.S. tax purposes (while becoming a resident of India for tax), the taxation of your 401(k) withdrawal changes significantly. Here are the consequences:
-
-* **10% Early Withdrawal Penalty:** The **10% federal penalty still applies** if you are under 59½ – yes, even for nonresidents. The IRS does not waive the early distribution penalty simply because you left the country. In other words, your residency status doesn’t exempt you from the penalty; it “may still apply regardless of your residency status”. If you withdraw before 59½, you owe this 10% additional tax to the IRS. You would report it on a U.S. tax return (Form 1040-NR) when paying any remaining U.S. tax on the distribution.
-
-* **U.S. Federal Tax (Nonresident Alien):** As a nonresident, the default rule is that U.S. source retirement distributions are subject to a **30% flat withholding tax** on the **gross amount**. In practice, when you cash out as an NRA, the plan **withholds 30%** of your 401(k) lump sum for the IRS. This 30% is not a penalty, but a withholding toward the U.S. income tax that may be due. However, U.S. tax law and the U.S.-India tax treaty provide some nuances:
-
-  * **ECI Treatment:** If you receive a lump-sum 401(k) distribution as an NRA, it *may* be treated as **effectively connected income (ECI)** with a U.S. trade/business (because the 401(k) is connected to your U.S. employment). If so, it would be taxed at graduated rates like a U.S. person, *not* a flat 30%. This means you could potentially pay a lower U.S. tax rate on the distribution if it’s small. In fact, if the 401(k) withdrawal is your only U.S. income that year, you might owe little to no U.S. tax on it beyond the penalty. For example, one could withdraw an amount up to the personal exemption (when those were in effect) or likely up to the standard deduction equivalent, and owe \$0 U.S. income tax (though still owing the 10% penalty). **However, nonresidents don’t get a standard deduction** by default (the U.S. standard deduction is unavailable to NRAs). U.S.-India treaty allows *Indian students and apprentices* a standard deduction, but that likely won’t apply once you’re a returning worker. So practically, as an NRA, any distribution is taxable, but you can still use graduated rates and lower brackets. The 30% withheld is often an overestimate.
-  * **Tax Filing:** After a distribution, you can (and should) file a **Form 1040-NR** nonresident tax return to reconcile the tax. If the actual U.S. tax on your 401(k) withdrawal (per graduated rates) is less than 30%, you claim a refund of the excess withholding. If it’s more, you’d owe more (unlikely unless the distribution was very large).
-  * **Tax Treaty (Periodic vs. Lump Sum):** The U.S.-India Tax Treaty distinguishes between periodic “pension” payments and lump sums. Under **Treaty Article 20**, private pensions and annuities are taxable only in the recipient’s country of residence (India, in this case) *if* they are *periodic payments in consideration of past employment* (essentially, a series of pension payments). This means if you take your 401(k) as a **monthly pension** or annuity after leaving, the treaty says **only India can tax those payments** (the U.S. would forgo tax). In practice, you’d likely still have 0% U.S. withholding if you properly claim treaty benefits (e.g. by submitting Form W-8BEN to the payer) and just pay Indian tax each year. **However**, if you take a **lump sum distribution**, it does *not* qualify as a “periodic pension” under the treaty. Lump sums fall under “other income” provisions with no exclusive taxing right given to one country. In a lump-sum case, the U.S. will tax (with 30% withholding) and India will also tax the income, with relief via foreign tax credit (explained below). Many people returning to India end up taking a lump sum, so expect both countries to tax it.
-
-* **India Tax:** Once you are a **resident of India** for tax, India taxes your **worldwide income**. Any withdrawals from the U.S. 401(k) after you’ve become an Indian resident must be reported on your Indian income tax return. Key points:
-
-  * The 401(k) withdrawal will be treated as **income in India (in INR)** and taxed at your applicable slab rates (which can go up to 30% for high incomes, plus cess/surcharges). India does not have a concept of “tax-deferred retirement account” for foreign accounts, so it sees this as just foreign income.
-  * If you took a **lump sum**, India will tax the entire distribution in the year you receive it (and since the U.S. also withholds/taxes it, this is double taxation initially).
-  * **Foreign Tax Credit:** Fortunately, the India-U.S. DTAA (Double Tax Avoidance Agreement) allows relief. You can claim credit in India for the taxes **actually paid in the U.S.** on that 401(k) distribution. For example, suppose you withdrew \$50,000. The U.S. withheld \$15,000 (30%). When filing Indian taxes, you include the \$50k (converted to rupees) in your taxable income, compute Indian tax (say it comes to \$15k equivalent as well), then claim a foreign tax credit for the \$15k U.S. tax withheld. If Indian tax exceeds U.S. tax, you pay the difference to India; if Indian tax is lower, you might not be able to recover the extra U.S. withholding unless a refund from U.S. is obtained by filing 1040-NR.
-  * **Treaty scenario:** If you instead arrange for **periodic pension payments**, per treaty India alone taxes those. Practically, you’d still report them in India and pay Indian tax, but you could claim a **treaty exemption** on a 1040-NR to avoid U.S. taxation. For example, if you set up an annuity or 72(t) systematic withdrawals that qualify as periodic, you might submit W-8BEN claiming Article 20 benefits so the U.S. payer withholds 0% and then only pay India. (If any U.S. tax was withheld, you’d file 1040-NR claiming treaty and get a refund.) **If moved back to India and receiving a monthly 401(k) pension, you only pay tax in India on that income.** The tradeoff is you’re still subject to the 10% early withdrawal penalty until age 59½ unless you structure the payments as a qualified exception (e.g. **72(t) equal payments** – which *are* a series of substantially equal periodic payments that avoid the penalty by IRS rule). A 72(t) distribution plan, if done after leaving, could potentially satisfy both the IRS penalty exception and the treaty’s definition of periodic pension (though this is complex; professional advice needed).
-
-* **State Tax:** Once you are a nonresident of the U.S., you generally **do not owe any state income tax** on your 401(k) distribution. U.S. federal law prohibits states from taxing retirement plan distributions paid to nonresidents. So if you left, say, California and became a resident of India, California cannot tax your 401(k) withdrawal (even if the contributions were earned in CA). The 30% federal NRA withholding covers only federal tax. You would not file a state return solely for the retirement distribution (unless you have other state-sourced income).
-
-* **Withholding & Reporting (U.S.):** As noted, the brokerage will typically do **30% withholding** on a lump sum to a foreign address. You would receive a **Form 1042-S** (for NRA income) or possibly a 1099-R coded for NRA, showing the distribution and tax withheld. You should file Form 1040-NR to calculate the actual tax and refund/penalty. Any 10% early withdrawal penalty would be computed on Form 5329 attached to 1040-NR. If treaty benefits are claimed (for periodic payments or to reduce the effective tax rate), you’d disclose that (Form 8833 for treaty-based positions, if required).
-
-* **Indian Reporting:** In India, you’d report the foreign withdrawal under income from other sources (or possibly salary/pension category). There is no concept of “penalty” in Indian tax – the entire amount received is just income. You’ll also need to fill out the schedule for foreign assets/income and claim the foreign tax credit for U.S. taxes paid. No withholding is done by India; you pay any tax due when you file (or via advance tax/self-assessment if large).
-
-* **Hanging on Until Age 59½:** Note that if you *don’t* withdraw immediately after returning to India and instead leave the 401(k) invested until you reach 59½ (or later), you can avoid the 10% penalty by waiting. You’d still eventually pay U.S. tax on distributions (unless treaty-exempt) and Indian tax (with credits). Deferring withdrawal until it qualifies as a normal distribution can save that penalty. Many expats choose to **leave the 401(k) in the U.S.** and not touch it until retirement age to avoid the 10% hit. This is perfectly allowed – you can keep a 401(k)/IRA as a foreign resident (just ensure the institution allows a foreign address, as some 401(k) plans require rollovers if you move abroad).
-
-* **Special Case – Small Withdrawals as NRA:** If, after returning to India, you opt to take only *small distributions* each year from your 401(k) (instead of one lump sum), you may reduce U.S. tax. As mentioned, an NRA’s 401(k) withdrawal can be taxed at graduated rates (if treated as effectively connected). For example, one could withdraw an amount that falls in the lowest U.S. tax bracket or even at a 0% rate. **If your only U.S. income is a small 401(k) payout, you might owe \$0 U.S. income tax on it** (for instance, withdrawing only \~\$4,000–\$5,000 in a year could be fully tax-free federally under the personal exemption/low-bracket threshold). The 30% withholding would then be mostly refunded after filing 1040-NR. This approach essentially uses your U.S. tax-free allowance each year. **However, India will tax those withdrawals annually as well,** so you’d still pay Indian tax (though possibly at a lower effective rate if spread out). This strategy can minimize total tax by keeping each year’s distribution in lower brackets and potentially utilizing treaty if possible. Just remember, multiple small withdrawals still each incur the 10% penalty until you’re 59½ (unless you set up a formal 72(t) plan). One could consider the 10% penalty as just another “tax” – e.g. a \$4,000 withdrawal with no regular tax yields a \$400 penalty cost to Uncle Sam.
-
-**Summary for 401(k):** Early withdrawal is costly. If you stay in the U.S., you face ordinary income tax plus a 10% penalty, and state tax + possibly state penalty on top in states like CA. If you leave for India, the U.S. will withhold 30% and impose the 10% penalty, and India will tax the distribution too – although tax treaties and credits can prevent double taxation **of the same income** (you won’t pay full boat 100% twice; you’ll pay the higher of U.S. vs India tax, plus the 10% penalty which is not creditable). Planning withdrawals carefully – either deferring them, spreading them out, or converting to periodic payments – can mitigate the tax hit. We’ll discuss specific **tax-minimization strategies** in a later section.
-
-## Traditional IRA Withdrawals
-
-A **Traditional IRA** has very similar tax treatment to a 401(k) for withdrawals, with a few differences in rules and flexibility. Like the 401(k), Traditional IRA withdrawals of pre-tax contributions and earnings are taxed as ordinary income federally and subject to a **10% early withdrawal penalty** if under age 59½ (absent an exception). We outline each scenario and note any distinctions for IRAs:
-
-### 1(a). Staying in U.S. (No State Tax State)
-
-* **10% Penalty:** Yes, the same 10% early distribution penalty applies to IRAs for under-59½ withdrawals. There are IRA-specific exceptions (e.g. first-time home purchase up to \$10k, higher education expenses, etc.), but assuming no exception, you’ll owe this penalty. The penalty is calculated on your tax return (Form 5329), just like for 401(k).
-
-* **Federal Tax:** The amount withdrawn from a Traditional IRA is added to your income and taxed at regular federal rates. No special rate; it’s ordinary income.
-
-* **State Tax:** In Texas/Florida (no income tax), there’s no state tax due on the IRA distribution.
-
-* **Withholding:** One difference: **IRA distributions are not subject to mandatory 20% federal withholding** like 401(k)s. Instead, IRA custodians typically **withhold 10% federal by default**, *unless* you elect out or choose a different rate. You can opt for no withholding or more, via Form W-4P. If you anticipate little or no tax (say you’re withdrawing a small amount within the standard deduction), you might opt out of withholding to avoid waiting for a refund. Otherwise, the default 10% will be applied. (For example, a \$10,000 IRA withdrawal might withhold \$1,000 for federal taxes, which you reconcile at filing.) In a no-tax state, there’s no state withholding.
-
-* **Reporting:** You’ll get Form 1099-R from the IRA trustee. You report the income on 1040 and any penalty on Form 5329.
-
-* **Small Withdrawals:** Just as with a 401(k), withdrawing only a modest amount that keeps you in the 0% federal bracket can eliminate **income tax** on the withdrawal (thanks to the standard deduction), but **the 10% penalty still applies**. So you could take out, say, \$12,000, pay \$0 in regular tax if that’s within your standard deduction, but you’d still owe \$1,200 in penalty.
-
-* **Note on IRA Exceptions:** If you qualify for certain exceptions, you could avoid the 10% penalty on an IRA withdrawal. Common ones: up to \$10k for a first-home purchase, qualified higher education expenses, unreimbursed medical bills over 7.5% of income, health insurance premiums while unemployed, etc.. These **waive the 10% penalty** (you’d just pay income tax). 401(k)s have fewer exceptions (they don’t allow the first-home or education exceptions, for instance). So an IRA offers a bit more flexibility if these apply. This could be a strategy: roll your 401(k) to an IRA when leaving your job, so that you can use those IRA penalty exceptions if needed. (We discuss rollovers and conversions in the strategies section.)
-
-### 1(b). Staying in U.S. (With State Income Tax)
-
-* **Penalty:** 10% federal penalty (same as above). State-level early withdrawal penalties: California also imposes a 2.5% penalty on early IRA distributions (just like for 401k). New York has no extra penalty.
-
-* **Federal Tax:** Taxed as ordinary income federally.
-
-* **State Tax:** Taxed as income by your state. E.g. California taxes IRA withdrawals fully (no exclusions). So does New York. You’ll pay state income tax at your marginal rate on the distribution. (A minor exception: some states offer small exclusions for retirement income or for seniors, but for a young person with an early withdrawal, those don’t apply. CA and NY do not exempt IRA distributions until maybe after a certain age in NY’s case for pensions – but IRAs generally included).
-
-* **Withholding:** IRA default 10% federal withholding still applies. **State withholding** may occur – e.g. CA’s default for IRA distributions is 2% of the distribution (if federal withholding is done) unless you opt out. Check your state’s rules or instruct the custodian. You can elect no state withholding if you prefer to pay when filing.
-
-* **Reporting:** Form 1099-R, etc. File state tax return including the withdrawal.
-
-* **Small Withdrawals:** Same idea – keep it small to minimize federal tax. If you withdraw an amount within the federal standard deduction and within any state tax-free threshold, you might pay little to no *income tax*. For example, in New York, if you had no other income and withdrew \$10k, federal tax could be 0, and NY tax on \$10k (after NY’s standard deduction of ~~\$8k) would be very little (tax on \$2k). California’s standard deduction (~~\$5k) is lower, so some state tax might kick in for a \$10k withdrawal. But overall, small annual withdrawals can be very tax-efficient. **Penalties still apply as applicable (10% federal + any state penalty)**.
-
-### 2. Leaving the U.S. for India
-
-For Traditional IRAs, the situation upon leaving to India is analogous to the 401(k) case:
-
-* **10% Penalty:** Still applies for early IRA withdrawals by an NRA (no exemption for leaving). The IRS will assess the 10% early withdrawal tax on your IRA distribution if under 59½. You’d account for this on Form 1040-NR.
-
-* **U.S. Tax & Withholding:** The IRA custodian will treat the distribution to a foreign resident similarly – typically **30% withholding** on the taxable amount by default for nonresidents. (Retirement distributions to NRAs are FDAP income that usually faces 30% withholding, unless reduced by treaty.) However, as with 401k, a lump-sum IRA withdrawal might be considered ECI and eligible for graduated rates. The U.S.-India treaty’s treatment of **pensions** would also extend to IRA distributions, since an IRA is a private pension plan. So:
-
-  * If you withdraw **lump sum**, expect 30% to be withheld. File 1040-NR to calculate actual tax. Possibly get a refund if the tax per graduated rates is less.
-  * If you take **periodic payments/annuity** from the IRA, those could qualify as “pension” under the treaty and be taxed only by India. (You’d claim treaty exemption for U.S.). Lump sums are not protected by the treaty and are taxable by both, with credit relief.
-  * Example: If you rolled your 401k to an IRA and then set up a monthly withdrawal for, say, 10 years, is that periodic? Likely yes – it could be seen as an annuity payout. Under Article 20, that might be taxable only in India if you’re an Indian resident. You’d want the IRA custodian to honor a W-8BEN treaty claim to not withhold 30%. If no treaty claim, they’ll withhold 30% and you’d later file a 1040-NR to claim a refund under the treaty provisions.
-
-* **India Tax:** India will tax IRA withdrawals just like 401k withdrawals – as ordinary income. No special treatment for IRAs. So the same need to declare it and claim foreign tax credit for U.S. taxes applies. Under the treaty, if it’s a periodic pension, only India taxes it (so you just pay Indian tax). If it’s a lump sum, both tax; you credit the U.S. tax in India. Note that India recently introduced Section 89A in its tax code to deal with timing mismatches of foreign retirement accounts – it basically says if a foreign retirement fund is taxed later (on withdrawal) in the foreign country, India can also wait to tax until withdrawal. It doesn’t eliminate tax; it just coordinates timing. Roth IRAs and such are still a grey area, but traditional IRAs/401k are taxable upon distribution in both jurisdictions.
-
-* **State Tax:** As with 401k, once you’re a nonresident, states won’t tax your IRA distribution. No state withholding either (the IRA custodian will have your foreign address and do NRA withholding for federal only).
-
-* **Withholding & Reporting:** The IRA custodian should issue a **Form 1042-S** for the distribution to NRA. (If they issue 1099-R, it will be coded as distribution to nonresident with 30% withheld.) You file 1040-NR to report the income and calculate tax and penalty. Form 5329 will handle the 10% penalty. You may also need Form 8833 if taking a treaty position to exempt U.S. tax (for periodic payments).
-
-* **Planning Consideration:** You might choose to **rollover your 401(k) to an IRA before leaving the U.S.**, to gain more control and potentially access the IRA-specific penalty exceptions or flexible withdrawal plans. Many employer 401k plans won’t maintain accounts for ex-U.S. addresses or may force out small balances. An IRA at a firm like Fidelity or Schwab can generally be maintained from abroad. This gives you flexibility to withdraw in stages, do Roth conversions, etc., which we discuss next.
-
-**In summary, Traditional IRA cash-outs are taxed very similarly to 401(k) cash-outs:** ordinary income tax at federal and state levels (if resident), 10% early withdrawal penalty applies under 59½, and 20% (401k) vs 10% (IRA) default withholding differences. When leaving the U.S., treaty and NRA considerations for IRAs are on par with 401k.
-
-## Health Savings Account (HSA) Withdrawals
-
-A **Health Savings Account (HSA)** is a tax-advantaged medical savings account. Contributions were pre-tax (or deductible), growth is tax-free, and distributions are **tax-free** *only* if used for **qualified medical expenses**. If HSA funds are used for non-medical purposes, different rules apply:
-
-* If under age 65, **non-medical withdrawals** are subject to **ordinary income tax** *and* a **20% penalty**.
-* After age 65 (or if disabled), non-medical withdrawals are taxed as income but **no 20% penalty** is charged – the HSA effectively acts like a Traditional IRA at that point for non-medical use.
-* There is no age 59½ rule for HSAs; the key age is 65 (Medicare eligibility age).
-
-Another important note: **Qualified medical distributions from an HSA are completely tax-free and penalty-free at any age**. This remains true even if you are no longer in the U.S., as long as the expense meets the IRS definition of a qualified medical expense.
-
-Now, our H-1B holder has an HSA from their time in the U.S. They’ve worked 1 year, presumably had a High Deductible Health Plan and contributed to an HSA. We analyze consequences if they withdraw HSA funds in various scenarios:
-
-### 1(a). Staying in U.S. (No State Income Tax)
-
-* **Using HSA for Medical Expenses:** If HSA funds are used for eligible medical costs, **no taxes or penalties** apply at federal level. The distribution is excluded from income. You must keep receipts to prove to the IRS if ever audited that the funds went to qualified expenses, via Form 8889 reporting.
-
-* **Non-Medical Withdrawal (Under 65):** If our user withdraws HSA money for non-medical purposes (essentially cashing it out like a savings account) before age 65, a **20% early withdrawal penalty** applies *instead of* the 10%. HSAs have a harsher penalty rate. The withdrawn amount is also **included in gross income** and taxed federally. For example, a \$5,000 non-medical HSA withdrawal at age 40 would incur a \$1,000 penalty (20%) and the \$5,000 counts as income on which federal tax is owed. In a no-tax state like Texas, there’s no state tax to worry about (Texas doesn’t tax the income, and has no separate penalty).
-
-* **Non-Medical at 65 or Older:** If the user happens to be 65+, then any HSA withdrawal for non-medical reasons is just taxed as income with **no 20% penalty**. (At 65, an HSA effectively becomes similar to a Traditional IRA for tax purposes – you can spend on anything, pay income tax but no penalty. You also could continue to spend on medical tax-free, of course.) Since our user is only working a few years, they’ll be far from 65 in 2027, so this likely doesn’t apply to them now.
-
-* **Federal Tax on Non-Medical Use:** The HSA withdrawal (non-qualified) is treated as ordinary income. It gets added to your taxable income for the year. So if you took \$5k out for non-medical, that \$5k is taxable. If it’s a small amount and you have enough deductions, you might not actually pay much federal income tax on it (it could be offset by standard deduction). *But regardless of tax,* the 20% penalty still applies on the amount withdrawn.
-
-* **State Tax:** In Texas/Florida, there’s no state income tax, so no state impact on any HSA withdrawal.
-
-* **Reporting & Withholding:** HSA custodians issue **Form 1099-SA** for distributions. It will indicate the total withdrawn and codes for reason. **There is no mandatory withholding** on HSA withdrawals – it’s up to you to pay any taxes/penalties. You report the distribution on **Form 8889** with your 1040, indicating how much was used for qualified medical expenses. Any portion not used for medical gets included in taxable income, and the 20% penalty on that portion is calculated on Form 8889 (and carried to Schedule 2 of 1040). As an example, if you withdrew \$2,000 and spent \$1,500 on a doctor’s bill (qualified) and \$500 on a new phone (not qualified), you would report \$500 as taxable income and owe a \$100 penalty (20% of \$500). There’s no 20% penalty on the \$1,500 used for medical; that part remains tax-free.
-
-* **Small Withdrawals within Deduction:** If the HSA withdrawal is small enough to fall under the standard deduction, you might pay no *income tax* on it. For instance, \$3,000 taken out for non-medical uses, and you have no other income — that \$3k might be covered by the standard deduction federally (meaning \$0 income tax). But you’d still owe 20% penalty = \$600. So effectively you’d lose 20% of whatever you take out if it’s non-medical and you’re under 65, even if it’s not otherwise taxed due to being a small amount.
-
-* **Strategy – Use HSA for Medical Only:** The optimal use of an HSA is to spend it on qualified medical expenses to avoid any tax or penalty. If the user remains in the U.S., they can use the HSA for current medical bills or save receipts and reimburse themselves later. As long as the expense was incurred after the HSA was established, you can reimburse yourself years later (the IRS has no time limit, as long as you keep documentation). So one strategy if you need cash but want to avoid the 20% penalty is: pay medical expenses out-of-pocket, then later withdraw that amount from the HSA (tax and penalty free) because it’s a reimbursement of a qualified expense. This way you effectively get “cash” out of the HSA with no penalty, provided you had unreimbursed medical expenses to justify it.
-
-### 1(b). Staying in U.S. (With State Income Tax)
-
-State tax complicates HSAs, because not all states follow federal HSA rules:
-
-* **State Conformity:** Most states (including New York) **conform to federal tax treatment of HSAs**, meaning they also exempt contributions and qualified withdrawals. Some states (notably **California and New Jersey**) do *not* recognize HSAs as tax-advantaged. For our examples:
-
-  * **New York:** NY follows federal on HSAs. HSA contributions are deductible on the NY return and distributions for medical are not taxed. So in NY, an HSA withdrawal for non-medical is taxed by NY just like by federal (included in income) and no special state penalty (NY has no separate HSA penalty).
-  * **California:** CA does **not** recognize HSAs at all. HSA contributions were not deductible for CA, and earnings in the HSA are taxable each year as they accrue. Qualified medical distributions are not exempt either because essentially CA treats the HSA as a normal investment account. In practice, this means if you’ve been a CA resident while contributing, you should have added back contributions to CA income and paid CA tax on HSA interest/dividends annually. By the time you withdraw, a lot of the principal might have already been taxed by CA. However, any **earnings growth that wasn’t taxed yet would be taxed on distribution**, and if you didn’t track it, potentially CA might just tax the whole distribution (to avoid double tax, one would need to show basis). Also, CA imposes its own 2.5% early withdrawal penalty on MSAs (medical savings accounts) and possibly HSAs by treating them akin to IRAs in its code. It’s a bit complex, but generally:
-
-    * For CA, **any HSA withdrawal (medical or not)** could increase your CA taxable income unless you can show those funds were already taxed. CA doesn’t give you a free pass for medical use of HSA money because it never gave you the tax benefit in the first place. So effectively, in CA *all* HSA distributions might be taxable income (the concept of “qualified” doesn’t exist in CA’s tax code).
-    * The **20% federal penalty** still applies for non-medical under 65, and CA additionally has a **2.5% penalty** on early distributions from Archer MSAs and likely HSAs (by extension of similar rules). So a CA resident under 65 taking an HSA withdrawal for non-medical might face 20% to IRS + 2.5% to FTB.
-    * Bottom line: If you live in a non-conforming state like CA or NJ, the HSA loses a lot of its tax benefit on the state side. In CA, you’d pay state tax even for a medical withdrawal (though at least there’s no CA penalty if it was for medical, presumably, since the penalty only hits non-qualified).
-
-* **Federal Treatment:** Regardless of state, the federal rules (tax-free for medical, taxable + 20% penalty for non-medical under 65) remain the same.
-
-* **Reporting:** You’ll report the HSA distribution on federal Form 8889. For state like NY (which conforms), you’ll generally carry over the federal income figure (which includes any non-qualified portion). For CA, you’d have to add back any HSA-related income that was excluded federally. CA has forms to compute HSA taxable income (since CA taxes HSA earnings annually, theoretically you’ve been doing that).
-
-* **Example:** User in California withdraws \$5,000 from HSA for a non-medical purpose at age 40. Federally, they include \$5k in income and pay 20% penalty (\$1k). California: that \$5k was never deducted originally and its earnings were likely taxed already, but let’s assume worst case they treat it as income – then it adds \$5k to CA income and CA charges 2.5% penalty (\$125) on top of normal CA tax (say \~9% of \$5k = \$450). So total tax could be \~\$1k (fed penalty) + \$??? fed income tax (maybe \$0 if within deduction or \$?? if not) + \$125 CA penalty + \$450 CA tax. It’s messy. The key point: *state taxes can add a layer* for HSA withdrawals in states that don’t follow federal rules.
-
-* **Optimal Strategy in State:** If you live in a state like CA, it is even more critical to use your HSA for **qualified medical expenses only.** That way, at least federally you pay nothing (no tax, no penalty), and in CA you would only be taxed on the earnings portion (which you should have been doing annually anyway). If you use it for non-medical, you get hit by federal and state taxes and penalties, which is very inefficient.
-
-### 2. Leaving the U.S. for India (HSA)
-
-Now, the user leaves the U.S. and goes back to India, and has an HSA. What happens? There is no direct tax treaty article for HSAs, and India doesn’t have an equivalent account type, so this gets tricky:
-
-* **U.S. Tax as Nonresident:** Surprisingly, the taxation of the HSA distribution for a nonresident still follows the same rules – qualified medical = tax-free, non-qualified = taxable + 20% penalty (if under 65). The twist is, if you are no longer a U.S. tax resident, how does the IRS enforce or collect this? If you take a distribution while in India:
-
-  * The HSA custodian may or may not withhold taxes. Generally, **HSA distributions are not automatically subject to withholding**, even for nonresidents. They might still send you a 1099-SA to your foreign address.
-  * As a nonresident, technically that HSA distribution of previously untaxed contributions/earnings is U.S. sourced (it’s coming from a U.S. trust account) and would be taxable in the U.S. if not used for medical. It doesn’t neatly fall under “pension” or “FDAP interest/dividend” – it’s kind of other income. Likely it would be treated as **other income** effectively connected to the U.S. (since contributions were made pre-tax from U.S. employment). You might still be required to file a 1040-NR to report any non-qualified HSA withdrawals and pay the tax/penalty. Enforcement is a gray area, but legally the obligation is there.
-  * The 20% penalty *still applies under 65* regardless of residency. There’s no exception for leaving the country. Age 65 is the only age-based exception.
-  * If you use the HSA for legitimate medical expenses while in India, *you can still take that money out tax-free.* The IRS doesn’t say the medical care must be in the U.S. (for example, if you move abroad and have a medical bill, you can use your HSA funds). You’d still report the distribution on Form 8889 but mark it as used for qualified expenses, so \$0 tax and \$0 penalty. The main challenge is keeping documentation – you’d have foreign medical receipts (possibly in rupees). You should keep translations and proof to satisfy IRS if audited. But tax-wise, it remains tax-free.
-
-* **Indian Tax:** India’s tax treatment of an HSA is unfavorable:
-
-  * India does not recognize the tax-free nature of HSAs. **Contributions to HSA were not deductible in India, and any interest or investment income inside the HSA is likely taxable in India each year** as it accrues. Essentially, India would treat an HSA like a foreign bank account or investment account. So each year, any growth (interest, dividends, capital gains) in the HSA should be reported on your Indian tax return. There’s no concept of “tax-free growth” for HSAs in Indian law.
-  * When you withdraw from the HSA, if it’s for a medical expense, from a U.S. perspective it’s tax-free, but India might not give you a break for that. In India, you spent money on a medical expense – India doesn’t generally allow deduction for personal medical expenses (except some specific cases like certain critical illness deductions or if reimbursed by employer). So you likely don’t get to deduct the medical expense. But will India count the HSA withdrawal itself as income? Probably **not** double-count, because if the HSA interest was already taxed annually, the withdrawal is just drawing out your own after-tax money. The principal (your contributions) were originally from pre-tax U.S. salary, but by the time you’re Indian resident, that money is just sitting in the account.
-  * For **non-medical withdrawals**, India would certainly tax any portion of the HSA withdrawal that represents earnings that haven’t been taxed by India yet. If you hadn’t been reporting annual HSA growth in India (many people might not know to do that), then the entire distribution could be seen as taxable. However, India would also see that you are paying U.S. tax on that withdrawal (if you do, including the 20% penalty maybe).
-  * No treaty provisions specifically address HSAs. The HSA isn’t a pension or annuity; it would likely fall under the treaty’s **Other Income** article (Article 23) which says such income can be taxed by both countries. So there’s no relief except foreign tax credit.
-  * **Foreign Tax Credit in India:** If you paid U.S. tax on an HSA withdrawal (say 30% combined tax+penalty), you could claim credit for that against your Indian tax on that income. But note: the 20% penalty is not a tax on income per se (it’s an “additional tax” as a penalty). Whether India would credit the 20% penalty portion is doubtful, because tax treaties typically cover income taxes, not penalties. So you might end up eating the 20% penalty cost with no credit. (India would credit the U.S. regular income tax paid on the withdrawal though).
-  * If you’re **Resident but Not Ordinarily Resident (RNOR)** in India for a year or two upon return, you might not be taxed in India on foreign-earned income (depending on timing). Some returning NRIs use RNOR status to not tax foreign investment income for a short period. HSAs could fall under that in the first couple of years of return, meaning if you withdraw while RNOR, maybe you avoid Indian tax (but once you’re full resident, you will be taxed).
-
-* **Strategic Use Abroad:** If possible, it’s wise to **keep the HSA** and continue to use it *only for medical expenses*, even in India. For example, you could pay for a medical procedure in India out-of-pocket and then reimburse yourself from the HSA. The reimbursement (distribution) is tax-free in the U.S. (since it was for a medical expense). In India, you’ve effectively just paid a medical bill – there’s no income recognized from that withdrawal as long as the growth in the account was being taxed yearly. So essentially, you’d only be taxed in India on the HSA’s growth (which you should be reporting annually). This preserves the value of the HSA for its intended purpose.
-
-* If you **cash out the HSA entirely** after moving to India and use it for non-medical needs, you will pay:
-
-  * U.S.: Income tax (likely 30% withholding) + 20% penalty on the distribution (if under 65).
-  * India: Tax on the distribution (likely at your slab rate, \~30%), but you can offset the U.S. income tax portion via foreign tax credit. The U.S. 20% penalty portion, however, is money you lose that India won’t credit.
-  * This can easily eat \~50% or more of your HSA’s value in taxes+penalty between the two countries, which is clearly undesirable.
-
-* **Reporting:** If you do withdraw while abroad, you’d still get a 1099-SA from the HSA custodian. File a 1040-NR if needed to report the income/penalty. In India, you report any taxable portion and claim FTC for U.S. taxes (not for penalties).
-
-* **One more option:** You can also choose **not to touch the HSA at all** and let it grow. You won’t be able to contribute once you’re no longer on a high-deductible health plan (and as a nonresident you can’t contribute anyway). But you can keep it invested. Note that while nonresident:
-
-  * The HSA’s investment gains are still not taxed by the U.S. (HSA trust remains tax-free growth).
-  * But as mentioned, India will tax those gains annually (since you’re an Indian resident) unless you fall under RNOR temporarily. So you might end up paying Indian tax each year on the HSA’s investment income, which effectively reduces its tax-free growth benefit.
-  * At age 65, you could withdraw for any purpose without the 20% U.S. penalty, but whatever you withdraw then would be taxable in India (and U.S. if no treaty covers it by then, but maybe treaty could classify it as pension if periodic). It’s complex, but keeping the HSA until age 65 to avoid the penalty could be considered if the account is large and you don’t need the money now.
-
-**Summary for HSA:** While in the U.S., avoid non-medical HSA withdrawals if possible due to the hefty 20% penalty. Use it for health expenses (tax-free) or let it grow. In a state like CA, remember HSAs aren’t state-tax-free, so you’ll owe state tax on earnings and possibly distributions. If leaving the U.S., consider preserving the HSA for future medical use (even abroad) to maintain its tax advantages. Cashing it out for non-medical needs as an NRI will incur U.S. taxes/penalty plus Indian taxes, largely eroding the account’s value. There’s no specific treaty relief for an HSA – it’s not a pension – so it will be double-taxed (with credit for only the income tax portion). Thus, the best strategy is to spend HSA dollars on legitimate medical costs (either now or in retirement). Remember that after age 65, the 20% penalty is gone, so if you can wait, that’s a significant benefit.
-
-## Strategies to Minimize Tax and Penalty Burdens
-
-Early withdrawals from retirement accounts are generally discouraged because of the taxes and penalties. However, if our H-1B visa holder *must* or *wants* to access these funds, there are several strategies and considerations to reduce the tax bite:
-
-### 1. **Take Advantage of Low Tax Brackets and Standard Deduction**
-
-If you withdraw only amounts that keep you in a low tax bracket (or zero bracket), you can minimize or eliminate **income tax** on the distribution. For example:
-
-* While a U.S. resident, plan withdrawals each year that, when added to your other income, remain within the standard deduction and lowest tax bracket. As noted, a single filer has around \$13,000 standard deduction (in 2025; this may change after 2025) and the 10% federal bracket extends to around \$10k above that. So you could potentially withdraw \~\$10k–\$20k and pay very little tax if done in small increments each year. **Any amount within the standard deduction would be tax-free federally**, effectively only costing you the penalty. This way, you at least avoid stacking the withdrawal on top of your salary where it’d be taxed at a high rate.
-
-* If you’ve left the U.S. and are an NRA, you don’t get a standard deduction in general. But you still have progressive rates on effectively connected income. By limiting the withdrawal to a small amount each year (say \$5k or so), you could potentially owe minimal U.S. tax (as illustrated with the \$4,050 personal exemption example). You’d have to file annually to claim back any excess withholding. In India, smaller withdrawals yearly might also be more tax-efficient than one lump sum pushing you into the highest slab in one year.
-
-* **Bottom line:** *If you can budget your cash needs and withdraw gradually, you’ll usually pay far less in income taxes.* This does **not** avoid the 10% (or 20%) penalty, but it ensures you don’t pay high income tax on top. In effect, the penalty becomes the main cost, which is at least capped at 10% or 20% rather than, say, 30%+ tax.
-
-### 2. **Use Roth Conversions Strategically**
-
-Instead of withdrawing the 401(k)/IRA money outright, consider doing a **Roth conversion** of some or all of the funds while you are in a low tax situation:
-
-* A **Roth conversion** means moving money from your Traditional 401k/IRA into a Roth IRA. You pay income tax on the amount converted (since it’s as if you withdrew it, but then it immediately goes into the Roth). **No 10% penalty is charged on a direct conversion** – it is not considered an early *withdrawal* in the sense of leaving the retirement system; it’s a transfer to another tax-advantaged account. *Important:* you must do a **trustee-to-trustee transfer or direct rollover** to avoid any withholding. If done properly, you won’t incur the penalty at conversion. (If you instead withdraw to yourself and then deposit to a Roth within 60 days, you could still avoid penalty *if you deposit the full amount including what was withheld*, but that’s more complication. Direct conversion is cleaner.)
-
-* Why convert? Because once in a **Roth IRA, all future growth is tax-free**, and qualified withdrawals from the Roth are tax-free. If you expect to return to India, having money in a Roth might mean you can withdraw it tax-free from the U.S. side at retirement. (Though India may tax it, you eliminate the U.S. tax.)
-
-* You’d want to convert in years where your U.S. tax rate is low – e.g., while you have only a low income or during a gap year. Possibly, if 2027 is your last year in the U.S. and you only work part of the year, your income might be lower; that could be a good time to convert some amount.
-
-* **Standard Deduction Utilization:** You could do “micro Roth conversions” each year equal to the standard deduction or 0% bracket amount. For instance, convert \$13k of your 401k to Roth in a year you have no other income – you’d pay almost \$0 tax on that conversion because the standard deduction offsets it. And **no 10% penalty**. Then that \$13k is in a Roth growing tax-free.
-
-* One caution: Once converted, the funds must stay in the Roth for **5 years or until age 59½** (whichever is later for each conversion) before you can withdraw the converted amount without a penalty. This is the Roth conversion 5-year rule – if you withdraw the converted principal early, you might incur a 10% penalty on that (unless you’ve reached 59½). So this strategy is to reduce taxes, but it’s not to get the money out for spending right away. It’s best if you plan to keep these retirement funds for retirement, but just want to avoid the double taxes. If your plan is to eventually use the money in India for retirement, converting to Roth and leaving it until 59½ could be wise, as you’d pay minimal U.S. tax now and avoid U.S. tax later.
-
-* Also consider converting *after* moving to a no-tax state if you’re currently in a high-tax state. For example, if you might move from NY to TX in 2026, wait till you’re in TX to do the conversion so you don’t owe state tax on the conversion.
-
-* **Example:** You have \$50k in a 401k. Instead of withdrawing and paying 30% tax + 10% penalty in one shot, you roll it to an IRA, then convert \$10k per year for 5 years. Each \$10k adds to your income. If you ensure that \$10k falls in a low bracket (say 10% federal) and you’re in TX (0% state), you pay about \$1k tax on each conversion and no penalty. In total, you pay \$5k tax on converting \$50k to Roth. Once in Roth, you leave it for 5+ years. When you’re say 60 years old in India, you withdraw from the Roth tax-free from the U.S. perspective. India will likely tax the withdrawals (since they don’t recognize Roths – they’ll treat the withdrawals as income), but at least the U.S. took only 10% total tax, and no penalty. Compare that to taking it in one lump as an NRA: maybe 30% U.S. tax + 10% penalty = 40% gone, and then India taxes the remainder (with credit for the 30% tax perhaps). Roth conversion clearly can save a lot in that scenario.
-
-* **Important:** While an H-1B in the U.S., you can do Roth conversions. After you become a nonresident alien, doing a Roth conversion is generally not possible (custodians typically cannot do conversions for NRAs easily, and you wouldn’t want to without the standard deduction anyway). So this strategy is for *before or in the year you depart*.
-
-### 3. **Rollover and Withdrawal Timing Strategies**
-
-* **Rollover to IRA:** If you have a 401(k) with your employer, when you leave the job (say in 2027), **roll it over to a Traditional IRA** rather than cashing it out immediately. An IRA gives you flexibility: you can withdraw in smaller pieces, utilize IRA-specific penalty exceptions, and choose your timing. Some 401(k) plans don’t allow partial withdrawals or have limited withdrawal windows, whereas with an IRA you’re in full control. Also, some 401k providers might not want to maintain your account if you live abroad. Rolling to an IRA avoids forced cash-outs. **There is no tax or penalty on a direct rollover** to an IRA from a 401k.
-* **“72(t” Substantially Equal Periodic Payments (SEPP):** This is a provision that allows you to take early withdrawals from an IRA (or 401k after leaving employer) **without the 10% penalty**, as long as you commit to taking a series of roughly equal payments over a period of time. The payments must continue for at least 5 years or until you turn 59½, whichever is longer. This is somewhat complex to set up (you calculate allowed withdrawal using IRS life expectancy tables and must stick to it). But it can be a way to access funds in your 30s or 40s without penalty. For example, a 35-year-old could start 72(t) withdrawals that must continue for 24 years (until 59½). This yields annual allowed withdrawals based on your account balance and age. If you stop or modify them improperly, all the past penalties come back due. It’s a rigid strategy, but it *does* eliminate the 10% penalty on those withdrawals. If our H-1B holder plans to return to India and might want a steady income stream from the IRA for, say, 10 years, this could fit – and as noted, **those periodic payments might also qualify as “pension” under the treaty, so only India would tax them.** It’s like setting up an annuity for yourself.
-* **Delay Withdrawal Until Qualifying Event:** If possible, leave the money until you hit an age-based exception. Two common ones:
-
-  * **Age 55 Rule (401k only)**: If you separate from your employer in the year you turn 55 or later, distributions from that employer’s 401k are not subject to the 10% penalty. This is known as the “rule of 55.” It doesn’t help our user unless they happen to be 55 in 2027 (seems unlikely).
-  * **Age 59½**: The magic age when retirement accounts can be tapped penalty-free. If the individual can leave the account in place until then (even as a nonresident), they won’t pay the early withdrawal penalty, just the regular taxes (which potentially could be lower due to treaty if in India).
-  * **Age 65 for HSA**: If one can leave the HSA untouched until 65, then non-medical withdrawals avoid the 20% penalty (you’d just pay tax, which if you’re abroad might be primarily to India).
-* **Use Funds for Allowed Purposes to Avoid Penalty:** If the user has certain needs, channeling the withdrawal toward an **exception** can avoid penalty:
-
-  * From IRA: first home purchase (up to \$10k lifetime) – could use if they decide to buy a house in the U.S. before leaving (though if leaving, maybe not). Or pay for a degree (their own or spouse/child’s) – tuition can be paid from IRA without penalty. If the user, for instance, decides to do a Masters in the U.S., they could withdraw IRA money to pay tuition penalty-free (still taxed as income).
-  * From 401k: hardship distributions for things like medical or education are taxable but penalty-free only in specific cases if the plan allows hardship withdrawals (the penalty waiver for education is not a universal rule for 401k, it’s only IRA; 401k hardship might still incur penalty except for medical >7.5% of income). Alternatively, one could roll 401k to IRA to use those IRA exceptions.
-  * Use HSA for medical (as discussed) to avoid the 20% penalty. If the user has any significant medical costs (or even vision/dental, which count), definitely use HSA funds for those rather than paying cash.
-
-### 4. **Plan Around Residency Status**
-
-* If you know you will leave the U.S., consider timing your distributions either *while you’re still a U.S. resident* or after you become a nonresident, depending on which is more favorable:
-
-  * Sometimes taking a distribution in your last year as a U.S. resident (filing a full 1040 with standard deduction) can result in less tax than taking it as a nonresident (1040NR with no standard deduction but maybe treaty rates). For example, if in your departure year you only worked part-year and your income is low, you could withdraw some 401k money while still a resident and pay tax on it with the benefit of lower brackets and deductions, rather than waiting till the next year when as an NRA it would face flat 30% withholding (which you could maybe recover partially, but no standard deduction).
-  * On the other hand, if you have high income in the U.S. currently (pushing the withdrawal into a high bracket), it might be better to wait until you’re an NRA with no other U.S. income so that the withdrawal is taxed stand-alone (just don’t forget the lack of standard deduction).
-  * Also consider state taxes: If you’re in California now but planning to move to Texas (or leave the country), waiting until you are out of CA residency to take the distribution can save >10% in state tax. Many Californians moving back to India wait until they are non-residents of CA to withdraw, to avoid CA’s tax and 2.5% penalty.
-
-* **Avoiding Double Tax in Home Country:** If returning to India (or any country with a tax treaty), research treaty benefits. In India’s case, structuring your withdrawals as periodic payments can significantly cut U.S. taxation (zero, under the treaty), leaving only Indian tax (which you’d be paying anyway on a lump sum). This requires some planning (possibly annuitizing the account or taking 72(t) SEPP distributions). If the sums are large, it could be worth it.
-
-* **Administrative Tasks:** Before leaving the U.S., update your address with financial institutions and possibly convert your 401k to an IRA with a provider known to work with foreign addresses (e.g. Fidelity, Schwab, etc.). This ensures you maintain control and can execute the above strategies. Some providers may freeze or force distribute accounts of NRAs, which you want to avoid. By planning ahead, you keep the flexibility to withdraw on your terms to minimize taxes.
-
-### 5. **Evaluate Need vs. Cost**
-
-Finally, consider **not withdrawing at all** if the need is not critical. The tax-deferred growth in a 401k/IRA, or tax-free growth in an HSA, is valuable — especially if you can avoid that 10% or 20% penalty by waiting. If you can find funds elsewhere (for example, maybe build an emergency fund separately, or use taxable savings) and leave the retirement account intact, it may be financially wiser. For an H-1B holder unsure about returning to the U.S. in the future, remember that you could leave the money in the U.S. and someday use it (even from abroad) when you retire. The accounts won’t expire. You might also return to the U.S. later or become a citizen, and then you’d be glad you kept your retirement savings.
-
-However, circumstances vary. The key is that if you **must** withdraw early, do so in a tax-efficient manner: spread the withdrawals over years, use available exceptions, consider a partial Roth conversion, and leverage treaties/credits to avoid true double taxation. By carefully planning, one can substantially reduce the combined tax and penalty impact.
+> **What changed recently (2025–2026)**
+> - **OBBBA (July 2025)** made the TCJA rates/brackets **permanent** — no 2026 sunset. 2026 standard deduction: **$16,100 single**. Low-income-year withdrawal math below uses these numbers.
+> - **2026 limits:** 401(k) deferral **$24,500** (catch-up $8,000; ages 60–63 $11,250); IRA **$7,500** (catch-up $1,100); HSA **$4,400 self / $8,750 family**. Mandatory *Roth* catch-up for prior-year wages above ~$145–150k (indexed) starts 2026 — irrelevant until age 50.
+> - **SECURE 2.0 penalty exceptions now live:** $1,000/yr emergency expense, domestic abuse (~$10,000 indexed), terminal illness, federally declared disaster ($22,000), birth/adoption ($5,000), and from Dec 2025 up to $2,500/yr for long-term-care insurance premiums.
+> - **India:** the **Income-tax Act, 2025** replaced the 1961 Act effective **April 1, 2026**. Section 89A (foreign retirement account relief) is renumbered **Section 158**; the mechanics (Rule 21AAA, Form 10-EE) carry over. New-regime slabs: effectively **no Indian tax up to ~₹12 lakh** (rebate), top slab 30% above ₹24 lakh + 4% cess.
+> - **India still has no inheritance/estate tax** (checked Sep 2026) — but the US estate-tax trap for NRAs is real (see final section).
 
 ---
 
-**References:**
+## 1. The four layers of cost on any early withdrawal
 
-* U.S. Bank – *IRA and 401(k) Withdrawal Rules*: Early withdrawals are taxed as ordinary income and hit with a 10% penalty if under 59½.
-* IRS – *Tax on Early Distributions*: 10% additional tax applies to distributions before age 59½, with certain exceptions listed (e.g. death, disability, SEPP/72(t), age 55 rule, etc.).
-* OPM (FEHB) – *HSA FAQs*: Non-medical HSA withdrawals before age 65 are included in gross income **and** subject to a 20% penalty.
-* Paychex – *CA 401(k) Penalties*: California taxes retirement income fully and imposes an extra state penalty on early 401(k) distributions.
-* MYRA Wealth – *401(k) for Expats*: As an NRA, 30% will be withheld on a 401k lump sum; small distributions may end up owing 0% U.S. tax (with refund of withholding) if they fall in low brackets. Also, under U.S.-India treaty, monthly pension payments from a 401k are only taxed in India.
-* Human Interest – *401(k) for Foreign Nationals*: Confirms that the 10% early withdrawal penalty applies regardless of residency. Illustrates that an NRA can withdraw an amount up to the personal exemption (\~\$4k) with no U.S. income tax (though still owing the 10% penalty).
-* Quora – *HSA after moving to India*: Notes that India doesn’t recognize HSA tax benefits; contributions aren’t deductible and HSA earnings are taxable in India. This implies HSA funds used in India lose their tax-free growth advantage locally.
+Every scenario below is just these four layers stacked differently:
+
+| Layer | Traditional 401(k)/IRA | Roth IRA | HSA |
+|---|---|---|---|
+| US federal income tax | Ordinary income on full amount | Contributions: never. Earnings: taxed if non-qualified | Qualified medical: $0. Non-qualified: ordinary income |
+| US early penalty | 10% under 59½ (exceptions below) | 10% on earnings (and young conversions) only | **20%** on non-qualified, until **65** |
+| US state tax | Only while resident of a taxing state (4 U.S.C. §114 protects nonresidents) | Same | CA/NJ don't recognize HSAs at all |
+| India tax | Zero while NRI/RNOR; full slab tax once ROR (FTC for US *income* tax; **penalties are never creditable**) | India doesn't recognize Roth: earnings taxable once ROR | India taxes HSA growth annually once ROR |
+
+**Key mental model:** the US *income tax* layer can usually be engineered down to near zero (low-income years, standard deduction, graduated NRA rates, treaty). The **10%/20% penalty layer only goes away via an exception, age, or waiting** — and India never credits it.
+
+### 2026 US reference numbers (single filer)
+
+| Item | 2026 |
+|---|---|
+| Standard deduction | $16,100 (NRAs get **$0** — the India-treaty standard deduction is for students/apprentices only, not returning workers) |
+| 10% bracket | up to $12,400 taxable |
+| 12% bracket | $12,400 – $50,400 |
+| 22% bracket | $50,400 – $105,700 |
+| 24% bracket | $105,700 – $201,775 |
+
+Source: https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
+
+### 10% penalty exceptions worth knowing (2026)
+
+| Exception | 401(k) | IRA | Notes |
+|---|---|---|---|
+| Age 59½ | ✓ | ✓ | The clean exit |
+| Rule of 55 | ✓ | ✗ | Separate from employer in/after the year you turn 55; only that employer's plan; **lost if rolled to an IRA** |
+| SEPP / 72(t) | ✓ (after separation) | ✓ | Substantially equal payments for the longer of 5 years or until 59½; rigid, but works from India and may double as treaty "periodic pension" |
+| Medical > 7.5% AGI | ✓ | ✓ | |
+| First home ($10k lifetime) | ✗ | ✓ | Reason to roll 401(k)→IRA |
+| Higher education | ✗ | ✓ | Reason to roll 401(k)→IRA |
+| Health insurance while unemployed | ✗ | ✓ | |
+| Emergency personal expense | ✓ | ✓ | $1,000/yr, repayable within 3 yrs (SECURE 2.0) |
+| Terminal illness / disability / death | ✓ | ✓ | |
+| **Leaving the USA** | ✗ | ✗ | **Not an exception. Moving to India does not waive the penalty.** |
+
+---
+
+## 2. Traditional 401(k) — scenario grid
+
+| | Stay US, no-tax state (TX/FL/WA) | Stay US, CA (worst case) | Return to India (NRA) |
+|---|---|---|---|
+| Federal income tax | Ordinary rates on top of salary | Same | Graduated rates if ECI (typical for 401k), else 30% flat; **no standard deduction** |
+| 10% penalty (<59½) | Yes | Yes | **Yes — still applies** |
+| State income tax | None | Up to 13.3% marginal | **None** (4 U.S.C. §114 bars states from taxing retirement income of nonresidents — even ex-CA residents) |
+| State penalty | None | **+2.5%** (FTB 3805P) | None |
+| Withholding | 20% mandatory on cash-outs | 20% fed + CA default | **30% NRA withholding** unless valid W-8BEN treaty claim; reconciled on 1040-NR (refund if actual tax lower) |
+| India tax | n/a | n/a | Zero while RNOR; full slab tax once ROR (FTC for US income tax) |
+| Forms | 1099-R, Form 5329 | + CA FTB 3805P | 1042-S or 1099-R, **1040-NR** + 5329; Form 8833 if claiming treaty |
+
+### The NRA / DTAA picture (the part that matters most)
+
+- **US-India treaty, Article 20(1):** private **pensions** and **annuities** paid "in consideration of past employment" are taxable **only in the country of residence** (India). Article 20(2): US Social Security is taxable only by the US.
+- **Periodic payments** (monthly/quarterly annuitized withdrawals, a 72(t) SEPP stream): strong position that Article 20 gives India the exclusive taxing right → file **W-8BEN** claiming treaty, US withholding drops toward 0%, pay only Indian tax.
+- **Lump sums — genuinely disputed.** Two positions:
+  - *Conservative (most custodians and many practitioners):* a one-shot cash-out is not a "pension"; the US taxes it (30% withholding, or graduated ECI rates on 1040-NR) and India also taxes it once ROR, with FTC. Plan on this outcome.
+  - *Aggressive (OECD-commentary-based):* a lump sum *in lieu of* pension after cessation of employment can still be an Article 20 "pension" → residence-only taxation. Some advisers file 1040-NR + Form 8833 on this basis. Real audit risk; don't rely on it for large amounts without a cross-border CPA.
+- The 10% penalty applies to NRAs. (There is a fringe argument that if a treaty excludes the income from US tax, the §72(t) penalty base is zero — untested for India lump sums; treat the penalty as owed.)
+- **India side once ROR:** India taxes the **entire withdrawal — contributions + growth — at slab rates** (top 30% + 4% cess; surcharge above ₹50L). India does not track US basis. FTC under DTAA Article 25 for US income tax actually paid; **the 10% penalty and any state tax are not creditable**.
+- **Section 89A → Section 158 (from Apr 2026) + Rule 21AAA + Form 10-EE:** lets an Indian resident defer Indian taxation of the US retirement account to the **year of withdrawal** (matching the US), instead of accrual taxation each year. US is a notified country. File Form 10-EE **before the ITR due date** of the first year you claim it; the election is **irrevocable** while you remain resident. This fixes the FTC timing mismatch — it does not reduce Indian tax.
+
+### Worked example — $100,000 401(k), age 35
+
+| Strategy | US cost | India cost | Total lost |
+|---|---|---|---|
+| **A. Lump sum while ROR in India** | ~$16.7k income tax (graduated ECI, no SD) + $10k penalty = **$26.7k** | ~₹88L taxed at slab ≈ ₹24L (~$27k), minus FTC ~$16.7k → ~$10k extra | **~$37k (37%)** |
+| **B. Lump sum during RNOR window** | Same **$26.7k** | **$0** (foreign income exempt for RNOR) | **~$27k (27%)** |
+| **C. $25k/yr over 4 RNOR years** | Each yr: ~$2.75k tax + $2.5k penalty → **$21k** | $0 | **~$21k (21%)** |
+| **D. Wait to 59½, periodic payments, W-8BEN Art. 20** | ~$0 US (treaty) | Slab tax in withdrawal years (spread out, 89A/158 election) | India slab only — often the cheapest if you don't need the money early |
+| **E. 72(t) SEPP started after return** | No penalty; treaty position for periodic payments plausible → little/no US tax | $0 during RNOR, slab after | Very low, but locks you in for ≥ max(5 yrs, to 59½) |
+
+*(Assumes ~₹88/USD, 2026 brackets, new-regime slabs. C beats B only because graduated brackets reset each year.)*
+
+---
+
+## 3. Traditional IRA — differences from the 401(k)
+
+Same federal/California/NRA treatment as above. What's different:
+
+- **Withholding:** 10% default (waivable via W-4P) instead of the 401(k)'s mandatory 20% — while resident. As an NRA, 30%/W-8BEN rules are the same.
+- **More penalty exceptions** (first home, education, health premiums while unemployed) — the main reason to **roll the 401(k) into an IRA when leaving the employer**.
+- **Rollover is tax-free and penalty-free** (direct trustee-to-trustee). Do it **before leaving the US**: 401(k) plans force out small balances (<$1,000 cashed out; $1,000–$7,000 auto-rolled to an IRA of the plan's choosing), often refuse foreign addresses, and give you no withdrawal flexibility. An IRA at a custodian that tolerates foreign addresses keeps every strategy above available.
+- Losing the Rule of 55 is the one cost of rolling — irrelevant if you'll be in India well before 55.
+- India treats IRA withdrawals identically to 401(k) withdrawals (89A/158 election available).
+
+---
+
+## 4. Roth IRA
+
+### US side (rules are residency-blind)
+
+Withdrawals come out in a fixed order: **contributions → conversions → earnings**.
+
+| Money | Tax | 10% penalty |
+|---|---|---|
+| Contributions | Never taxed | Never — withdrawable **anytime, any age, any country** |
+| Conversions | Already taxed at conversion | 10% if withdrawn within 5 tax-years of that conversion and under 59½ |
+| Earnings | Tax-free only if 59½+ **and** account ≥5 years old ("qualified") | 10% if non-qualified (exceptions apply) |
+
+The 5-year clock for earnings starts Jan 1 of your **first** Roth contribution year — it keeps running while you live in India.
+
+### India side — India does not recognize Roth
+
+- Once **ROR**, India sees the Roth as an ordinary foreign investment account. The prevailing practitioner position: **contributions come back as non-taxable capital, but earnings/growth are taxable in India** even when the US calls the distribution qualified and tax-free. (A stricter reading taxes accrued income annually; positions vary — flagged as unsettled. The 89A/158 election arguably covers a Roth IRA as a "retirement benefits account" and defers to withdrawal — most advisers do make the election for Roths too.)
+- **Strategy:** withdraw Roth **earnings** during the **RNOR window** if you want them — US-qualified (if 59½+5yr) *and* India-exempt = genuinely tax-free in both countries. If you'll be far from 59½ during RNOR, at minimum you can pull **contributions** tax- and penalty-free in both countries at any time.
+- Keep contributing to the Roth up to the year you leave (2026 limit $7,500) — contributions are the most flexible cross-border money you have.
+
+### Roth conversion ladder (before/around departure)
+
+In any low-income year while still a US resident (sabbatical, part-year final year), convert Traditional → Roth up to the top of the standard deduction / 10–12% brackets. **No 10% penalty on conversion itself.** Example: convert $16,100 with no other income → $0 federal tax. Converting in a no-tax state (or after leaving CA) avoids state tax on the conversion. Conversions are effectively unavailable once you're an NRA — this is a **before-you-leave** play. Note India (once ROR) ignores the conversion and would still tax growth on withdrawal — the ladder kills the US tax layer, not the Indian one.
+
+---
+
+## 5. HSA (summary — full detail in "HSA After Moving to India")
+
+- Qualified medical expenses: tax-free and penalty-free **at any age, in any country**. Non-qualified before **65**: ordinary income + **20% penalty** (worst penalty of any account; India credits neither the penalty nor recognizes the shelter).
+- CA/NJ residents: state taxes HSA contributions and annual earnings (no state recognition). Leaving CA ends that.
+- Once ROR in India, HSA growth is taxed annually by India; Section 89A/158 relief very likely does **not** cover HSAs (not a "retirement benefits account") — flagged position.
+- Optimal: never take non-qualified HSA money before 65; run the receipts/reimbursement strategy; consider depleting via receipts during RNOR.
+
+---
+
+## 6. India residency timeline — the RNOR window is the whole game
+
+| Status | How you get it | India taxes |
+|---|---|---|
+| **NRI** | Before you return / <182 days in India | Indian-source income only |
+| **RNOR** | Resident, but NRI in ≥9 of prior 10 FYs, **or** ≤729 days in India in prior 7 FYs | Indian-source income only — **US 401(k)/IRA/Roth/HSA withdrawals and growth are exempt** (if not received in India / not from an Indian business) |
+| **ROR** | Once you fail both RNOR tests | **Worldwide income** at slab rates + Schedule FA disclosure of every US account (Black Money Act penalties for misses) |
+
+- After 6+ years abroad you typically get **2–3 fiscal years of RNOR** (India's FY = Apr–Mar; landing date matters — arriving early in a FY can effectively add a year).
+- **Everything you want to realize cheaply — 401(k)/IRA staged withdrawals, Roth earnings, HSA drawdown, US brokerage capital gains — should be sequenced into the RNOR years.** The US side (NRA tax + penalties) still applies; the Indian layer is zero.
+- Once ROR: make the **89A/158 (Form 10-EE)** election for the 401(k)/IRA so India taxes only on withdrawal, file **Schedule FA** every year, and claim FTC via **Form 67**.
+
+---
+
+## 7. State tax: leave first, withdraw second
+
+- **4 U.S.C. §114 (P.L. 104-95, 1996)** prohibits any state from taxing "retirement income" (401(k), IRA, qualified plans) of a person who is **neither a resident nor domiciliary** of that state when received. Confirmed still in force. So CA **cannot** tax your 401(k) withdrawal after you've moved to India (or Texas) — even though the money was earned in CA.
+- While still a CA resident: CA taxes the withdrawal at up to 13.3% **plus a 2.5% state early-distribution penalty**. NJ/NY tax it as income (no extra penalty).
+- Practical rule: **take zero retirement distributions in your final part-year of CA/NJ residency.** Cleanly establish non-residency (move out, sever ties) before any withdrawal or Roth conversion. CA is aggressive about residency audits — document the departure date.
+- The §114 protection does **not** extend to HSAs (not "retirement income") — but as a nonresident of CA with no CA-source income you have no CA filing anyway.
+
+---
+
+## 8. Estate-tax trap for NRAs (don't skip this)
+
+- Once you're an NRA, your US estate-tax exemption collapses from ~$15M to **$60,000** of **US-situs assets**, taxed up to 40% above that. **401(k), IRA, Roth, HSA balances and US stocks all count as US-situs.** There is **no US–India estate tax treaty.**
+- A $500k retirement stack + US brokerage could expose your heirs to a six-figure US estate tax if you die while resident in India.
+- Mitigations: draw accounts down over RNOR/early-ROR years; keep beneficiaries updated (beneficiary designation avoids probate, **not** the estate tax); term life insurance to cover the exposure (life insurance proceeds on an NRA's life are not US-situs); long-term, hold non-US-situs assets instead.
+- India currently has **no inheritance tax** (abolished 1985; no live proposal as of the Feb 2026 budget) — watch each Union budget.
+
+---
+
+## 9. Action items / decision points
+
+**While in the US (every year):**
+- [ ] Max the cheap space: 401(k) $24,500, HSA $4,400/$8,750, Roth IRA $7,500 (2026). Roth contributions are the most reversible cross-border dollars.
+- [ ] Any low-income year (job gap, sabbatical): Roth-convert up to the standard deduction (~$16,100 tax-free in 2026).
+- [ ] Keep every HSA medical receipt from day one (shoebox strategy).
+
+**In the ~12 months before leaving the US:**
+- [ ] **Roll the 401(k) to a Traditional IRA** at a custodian confirmed (in writing) to service India-resident accounts. Ask specifically: hold, sell, withdraw, W-8BEN processing, wire to India.
+- [ ] Do a final-year **Roth conversion** sized to your part-year bracket — after leaving CA/NJ if applicable.
+- [ ] Establish clean state non-residency **before** any distribution or conversion.
+- [ ] Set up: US bank account you can keep, US mailing address (relative), US phone number ported to Google Voice for 2FA.
+- [ ] Update beneficiaries on every account; price term life against the $60k NRA estate exemption.
+- [ ] Land in India early in an Indian FY if you can — it can stretch the RNOR window.
+
+**After returning (RNOR years — the golden window):**
+- [ ] File **W-8BEN** with every custodian immediately (treaty claims + correct withholding).
+- [ ] Sequence withdrawals into RNOR: staged 401(k)/IRA amounts sized to the low US brackets (~$12–25k/yr each costs ~11% tax + 10% penalty and zero Indian tax), Roth earnings if 59½+5yr, HSA receipt reimbursements.
+- [ ] Decide lump-sum vs periodic for anything large; get a cross-border CPA opinion before relying on Article 20 for a lump sum.
+
+**Once ROR:**
+- [ ] File **Form 10-EE** (89A/§158 election) before the first ITR due date; Schedule FA every year; Form 67 for FTC.
+- [ ] Stop expecting India to respect Roth/HSA shelters — position those accounts accordingly.
+
+**Never:** cash out a 401(k) as a lump sum while ROR (Scenario A above — ~37% gone), or assume leaving the country waives the 10%/20% penalties (it doesn't).
+
+Key sources: https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500 · https://www.irs.gov/retirement-plans/plan-distributions-to-foreign-persons-require-withholding · https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title4-section114&num=0&edition=prelim · https://cleartax.in/s/section-89a · https://www.dineshaarjav.com/blog-detail/401k-withdrawal-nri-returning-to-india-tax-guide
